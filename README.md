@@ -22,3 +22,14 @@ This app is run using Live Server for Visual Studio Code. (https://marketplace.v
 
 Open up the folder in your IDE of choice, and Go Live!
 
+# Usage
+
+Note: This app uses your local storage to save and load your notes. 
+
+1. Press the (+) sign to add a note.
+2. Notes will appear at random on screen. 
+3. Give your stickie a title at the input on top of your stickie
+4. Enter your message in the text area.
+5. Save is always Green, and Delete is always Red.
+6. To search by title, enter the title you want to find in the search bar next to the (+) button. 
+7. Hit enter, and be pleasantly surprised.
