@@ -1,0 +1,76 @@
+body {
+	background-color: darkslategray;
+}
+
+.note-body {
+	background: white;
+	min-width: 200px;
+	min-height: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-top: 30px
+}
+
+.note-title-input {
+	height:30px; 
+	width: 65%; 
+	background: transparent; 
+	border: none
+}
+
+.note-body .title-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 30px;
+	width: 100%;
+	background: plum;
+	border: 0;
+}
+
+.title-bar img {
+	width: 15px;
+	height: auto;
+	margin: auto;
+	padding-left: 1%;
+}
+
+.button-container {
+	position: absolute;
+	display: inline-block;
+	right: 10px;
+	top:0;
+}
+
+.note-body textarea {
+	box-sizing: border-box;
+	min-height: 100px;
+	width: 100%;
+	border: none;
+	background: transparent;
+}
+
+.note-body .title-bar:hover {
+	cursor: move;
+}
+
+.delete-button,
+.save-button {
+	border: none;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+	border-radius: 10px;
+	top: 5%;
+	left: 5px;
+}
+
+.delete-button {
+	background: #FF260D;
+	
+}
+
+.save-button {
+	background: #41E813;
+}
